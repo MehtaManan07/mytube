@@ -14,7 +14,7 @@ const VideoList = (props) => {
   });
   return (
     <ListGroup>
-      <ListGroup.Item> {renderedVideos} </ListGroup.Item>
+      <ListGroup.Item style={{marginBottom: 5}}> {renderedVideos} </ListGroup.Item>
     </ListGroup>
   );
 };
