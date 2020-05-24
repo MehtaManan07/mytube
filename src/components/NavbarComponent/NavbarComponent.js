@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Navbar, Nav, NavDropdown, Col } from "react-bootstrap";
+import { Navbar, Nav, Col } from "react-bootstrap";
 import { FaYoutube, FaSearch, FaBell, FaHome } from "react-icons/fa";
 // import SearchBar from "../SearchBar/SearchBar";
 
@@ -23,7 +23,7 @@ class NavbarComponent extends Component {
         <Col>
           <Navbar.Brand href="#home">
             {" "}
-            <FaYoutube color={'red'} size={29} /> MyTube
+            <FaYoutube color={"red"} size={29} /> MyTube
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
         </Col>
@@ -52,11 +52,11 @@ class NavbarComponent extends Component {
             <Nav className="ml-auto">
               <Nav.Link href="#home">
                 {" "}
-                <FaHome size={29} color={'red'} />{" "}
+                <FaHome size={29} color={"red"} />{" "}
               </Nav.Link>
               <Nav.Link href="#link">
                 {" "}
-                <FaBell size={29} color={'red'} />{" "}
+                <FaBell size={29} color={"red"} />{" "}
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

@@ -2,7 +2,7 @@ import React from "react";
 import { Media } from "react-bootstrap";
 const VideoItems = (props) => {
   return (
-    <Media as="li">
+    <Media onClick={() => {props.onVideoSelect(props.video)}} as="li">
       <img
         width='25%'
         className="mr-1"

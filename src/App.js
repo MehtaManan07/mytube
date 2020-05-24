@@ -1,11 +1,15 @@
 import React from "react";
 
 import VideoSearch from "./components/VideoSearch/VideoSearch";
+import VideoDisplay from "./components/VideoDisplay/VideoDisplay";
 // import "./App.css";
 
 function App() {
   return (
- <VideoSearch />
+    <div>
+      {/* <VideoDisplay /> */}
+      <VideoSearch />
+    </div>
   );
 }
 
